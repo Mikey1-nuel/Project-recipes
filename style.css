@@ -1,29 +1,91 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+h1{
+	font-size: 50px;
+	line-height: 64px;
+	color: #222;
+}
+h2{
+	font-size: 46px;
+	line-height: 54px;
+	color: #222;
+}
+h3{
+	font-size: 20px;
+	color: #222;
+  font-weight: 200px;
+}
+h6{
+	font-weight: 300;
+	font-size: 12px;
+  color: white;
+}
+p{
+	font-size: 16px;
+	color: #465B52;
+	margin: 15px 0 20px 0;
+}
+.section-p1{
+	padding: 40px 80px;
+}
+.section-m1{
+	margin: 40px 0;
 }
 body{
-  background: black;
+  width: 100%;
+  background: black
 }
-
- .wrapper{
-   margin: 0 auto;;
-   width: 90%;
- }
-
-.videowrapper{
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0px;
+.wrapper .heading{
+  display: flex;
+  align-items: center;
 }
-
-.videowrapper iframe{
-position: absolute;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-height: 100%;
-width: 100%;
+.wrapper .heading i{
+  font-size: 20px;
+  padding: 3px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+.wrapper .heading h2{
+  font-size: 30px;
+  color: white;
+}
+.wrapper .videowrapper{
+  padding-left: 30px
+}
+.wrapper .videowrapper h3{
+  font-size: 20px;
+  color: white;
+}
+.wrapper .detail{
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+}
+.wrapper .name h4{
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.wrapper .btn button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.wrapper .btn button:hover{
+  background: #222;
+  color: #fff;
+}
+.wrapper p{
+  padding-left: 50px;
+  color: #fff;
+  font-size: 12px;
+  /* font-weight: 100px */
 }
